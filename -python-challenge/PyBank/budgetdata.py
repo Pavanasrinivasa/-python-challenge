@@ -46,9 +46,9 @@ print(f"Greatest Decrease in Profits: {bad_date} (${str(Greatest_decrease)})")
 output = open("output.txt", "w")
 line1 = "Financial Analysis"
 line2 = "--------------------------"
-line3 = (f"Total months: {str(total_months)}")
-line4 = (f"Total: ${str(total_revenue)}")
+line3 = (f"Total months: {str(Total_months)}")
+line4 = (f"Total: ${str(Total_pl)}")
 line5 = (f"Average Change: ${str(round(avg_change,2))}")
 line6 = (f"Greatest Increase in Profits: {Greatest_date} (${str(Greatest_increase)})")
-line7 = (f"Greatest Decrease in Profits: {loss_date} (${str(Greatest_decrease)})")
+line7 = (f"Greatest Decrease in Profits: {bad_date} (${str(Greatest_decrease)})")
 output.write('{}\n{}\n{}\n{}\n{}\n{}\n{}\n'.format(line1, line2, line3, line4, line5, line6, line7))
